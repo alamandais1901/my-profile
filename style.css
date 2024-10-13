@@ -1,0 +1,102 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+}
+
+/* Container global pour centrer les cartes */
+.container {
+    width: 700px; /* Largeur fixe du container */
+    margin: 40px auto; /* Marge automatique gauche/droite pour centrer */
+    padding: 20px;
+}
+
+/* Style pour les cartes blanches */
+.card-white {
+    background-color: white; /* Fond blanc */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px; /* Coins arrondis */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+
+/* Image de profil circulaire */
+.img-circle {
+    border-radius: 50%; /* Rendre l'image circulaire */
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    margin: 20px 0;
+}
+
+/* Alignement centré pour les titres et le contenu */
+.text-center {
+    text-align: center;
+}
+
+/* Style des boutons */
+.btn {
+    display: inline-block;
+    background-color: #4A90E2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #357ABD;
+}
+
+/* Style des sections et paragraphes */
+.card-white h1, .card-white h2, .card-white h3 {
+    color: #4A4A4A;
+    margin-bottom: 15px;
+}
+
+.card-white h1 {
+    font-size: 2.5em;
+}
+
+.card-white h2 {
+    color: #3FBF6C;
+    font-size: 1.8em;
+}
+
+.card-white p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Liste horizontale pour les réseaux sociaux */
+.list-inline {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-inline > li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.list-inline li a {
+    color: #1D72B8;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.list-inline li a:hover {
+    color: #3FBF6C;
+}
